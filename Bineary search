@@ -1,0 +1,8 @@
+def binary_search(sorted_array,length,key):
+    Start = 0
+    end=length-1
+    while Start<=end:
+         mid =(int)((Start+end)/2)
+         if key == sorted_array[mid]:
+            print(key,"is found in",mid,"index")
+            return-1
