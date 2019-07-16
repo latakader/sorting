@@ -15,3 +15,11 @@ def binary_search(sorted_array,length,key):
         
     print("failed to found")
     return-1
+    
+    array=[]
+size=int(input("Enter the Size of array:"))
+print("Enter the elements of array:")
+for i in range(0,size):
+    x=int(input())
+    array.append(x)
+print("The array is",array)
