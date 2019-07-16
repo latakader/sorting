@@ -6,3 +6,12 @@ def binary_search(sorted_array,length,key):
          if key == sorted_array[mid]:
             print(key,"is found in",mid,"index")
             return-1
+
+ elif key<sorted_array[mid]:
+            end=mid-1
+
+         elif key>sorted_array[mid]:
+              Start=mid+1
+        
+    print("failed to found")
+    return-1
