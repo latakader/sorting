@@ -23,3 +23,8 @@ for i in range(0,size):
     x=int(input())
     array.append(x)
 print("The array is",array)
+
+array.sort()
+print("After sorting",array)
+p=int(input("what you search:"))
+binary_search(array,size,p)
