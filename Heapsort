@@ -8,6 +8,7 @@ def heap(arr,n,i):
     if largest!=i:
         arr[i],arr[largest]=arr[largest],arr[i]
         heap(arr,n,largest)
+        
  #Function to buld the max heap 
 def heapSort(arr): 
     n = len(arr) 
